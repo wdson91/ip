@@ -2,6 +2,9 @@ const express = require("express");
 const path = require("path");
 const app = express();
 const port = 3000;
+const cors = require("cors");
+
+app.use(cors({ origin: "*" }));
 
 // Definir rota para a raiz ("/") para retornar um arquivo
 app.get("/", (req, res) => {

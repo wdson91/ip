@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video.js HLS Player</title>
+    <link href="https://vjs.zencdn.net/7.15.4/video-js.css" rel="stylesheet">
+    <style>
+        .video-js {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <video id="my-video" class="video-js vjs-default-skin" controls preload="auto" width="640" height="264" data-setup='{}'>
+        <source src="http://brqnt.pro:2082/Nubia101/15448246710/173752" type="application/x-mpegURL">
+        Your browser does not support HTML5 video.
+    </video>
+
+    <script src="https://vjs.zencdn.net/7.15.4/video.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+    <script>
+        var player = videojs('my-video');
+
+        if (player.canPlayType('application/vnd.apple.mpegurl')) {
+            player.src({
+                src: 'http://brqnt.pro:2082/Nubia101/15448246710/173752',
+                type: 'application/vnd.apple.mpegurl'
+            });
+        } else if (Hls.isSupported()) {
+            var hls = new Hls({
+                debug: true,
+                xhrSetup: function (xhr, url) {
+                    xhr.withCredentials = true; // Send cookies
+                }
+            });
+            hls.loadSource('http://brqnt.pro:2082/Nubia101/15448246710/173752');
+            hls.attachMedia(player.tech().el_);
+            hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                player.play();
+            });
+            hls.on(Hls.Events.ERROR, function(event, data) {
+                console.error('HLS.js error:', data);
+            });
+        }
+    </script>
+
+</body>
+</html>

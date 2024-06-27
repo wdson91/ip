@@ -1,0 +1,19 @@
+﻿#EXTM3U
+#EXTINF:-1 tvg-id="cartoon.network.br" tvg-name="CARTOON NETWORK 4K" tvg-logo="https://img.ip2.digital/cartoon.png" group-title="CANAIS | 4K",CARTOON NETWORK 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173749.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="ESPN4 4K" tvg-logo="https://img.ip2.digital/espn4.png" group-title="CANAIS | 4K",ESPN4 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173752.m3u8
+#EXTINF:-1 tvg-id="globo.br" tvg-name="GLOBO 4K" tvg-logo="https://img.ip2.digital/globo.png" group-title="CANAIS | 4K",GLOBO 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173753.m3u8
+#EXTINF:-1 tvg-id="hbo.br" tvg-name="HBO 4K" tvg-logo="https://img.ip2.digital/hbo.png" group-title="CANAIS | 4K",HBO 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173754.m3u8
+#EXTINF:-1 tvg-id="multishow.br" tvg-name="MULTISHOW 4K" tvg-logo="https://img.ip2.digital/multishow.png" group-title="CANAIS | 4K",MULTISHOW 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173756.m3u8
+#EXTINF:-1 tvg-id="premiere.clubes.br" tvg-name="PREMIERE CLUBES 4K" tvg-logo="https://img.ip2.digital/premierefc.png" group-title="CANAIS | 4K",PREMIERE CLUBES 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173757.m3u8
+#EXTINF:-1 tvg-id="record.br" tvg-name="RECORD 4K" tvg-logo="https://img.ip2.digital/record.png" group-title="CANAIS | 4K",RECORD 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173758.m3u8
+#EXTINF:-1 tvg-id="sbt.br" tvg-name="SBT 4K" tvg-logo="https://img.ip2.digital/sbt.png" group-title="CANAIS | 4K",SBT 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173759.m3u8
+#EXTINF:-1 tvg-id="sportv.br" tvg-name="SPORTV 4K" tvg-logo="https://img.ip2.digital/sportv.png" group-title="CANAIS | 4K",SPORTV 4K
+http://brqnt.pro:2082/Nubia101/15448246710/173760.m3u8

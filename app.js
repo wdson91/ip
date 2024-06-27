@@ -5,7 +5,7 @@ const port = 3000;
 
 // Definir rota para a raiz ("/") para retornar um arquivo
 app.get("/", (req, res) => {
-  const filePath = path.join(__dirname, "IPTV_LIST_25-06-2024.m3u8"); // Substitua 'index.html' pelo nome do seu arquivo
+  const filePath = path.join(__dirname, "IPTV_LIST_25-06-2024_(6).m3u"); // Substitua 'index.html' pelo nome do seu arquivo
   res.sendFile(filePath);
 });
 
